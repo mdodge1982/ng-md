@@ -1,8 +1,10 @@
-
 .white {
+	position: absolute;
+	top: 3rem;
+	left: 50%;
 	width: 8rem;
 	height: 8rem;
-	margin: 0 auto;
+	margin: 0 auto 0 -4rem;
 	border-radius: 4rem;
 	background: white;
 	text-align: center;

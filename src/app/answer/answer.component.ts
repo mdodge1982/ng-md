@@ -8,9 +8,9 @@ import {
 } from '@angular/animations';
 
 @Component({
-	selector: 'app-number',
-	templateUrl: './number.component.html',
-	styleUrls: ['./number.component.css'],
+	selector: 'app-answer',
+	templateUrl: './answer.component.html',
+	styleUrls: ['./answer.component.css'],
 	animations: [
 		trigger('visibilityChanged', [
 			state('true', style({
@@ -23,7 +23,8 @@ import {
 		])
 	]
 })
-export class NumberComponent implements OnInit {
+export class AnswerComponent implements OnInit {
 	visibility = 'hidden';
-	@Input() toggle: boolean = false;
+	@Input() toggle: boolean;
+	@Input() answer: string;
 }
