@@ -1,0 +1,12 @@
+
+.white {
+	width: 8rem;
+	height: 8rem;
+	margin: 0 auto;
+	border-radius: 4rem;
+	background: white;
+	text-align: center;
+	font-weight: bold;
+	line-height: 8rem;
+	font-size: 6rem;
+}

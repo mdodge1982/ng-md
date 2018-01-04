@@ -1,0 +1,11 @@
+
+<div class="eightball">
+	<div class="black" (click)="onClick()">
+		<app-number [answerState]="answerState"></app-number>
+		<div class="answer" *ngIf="answerState">
+			<div class="triangle">
+			</div>
+			<div class="answer-text">{{ answer }}</div>
+		</div>
+	</div>
+</div>
