@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
 	selector: 'app-eight-ball',
 	templateUrl: './eight-ball.component.html',
 	styleUrls: ['./eight-ball.component.css']
 })
-export class EightBallComponent implements OnInit {
+export class EightBallComponent {
 	answerState = false;
 	answer = '';
 

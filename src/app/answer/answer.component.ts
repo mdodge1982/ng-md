@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import {
 	trigger,
 	state,
@@ -23,7 +23,7 @@ import {
 		])
 	]
 })
-export class AnswerComponent implements OnInit {
+export class AnswerComponent {
 	visibility = 'hidden';
 	@Input() toggle: boolean;
 	@Input() answer: string;

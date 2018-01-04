@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import {
 	trigger,
 	state,
@@ -23,7 +23,7 @@ import {
 		])
 	]
 })
-export class NumberComponent implements OnInit {
+export class NumberComponent {
 	visibility = 'hidden';
 	@Input() toggle: boolean = false;
 }
